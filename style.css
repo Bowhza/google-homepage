@@ -1,0 +1,143 @@
+/* Main Elements*/
+
+body {
+    margin: 0;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 25px;
+    
+}
+
+.header_elem {
+    justify-content: center;
+}
+
+#btn {
+    border: 1px solid #4285f4;
+    text-align: center;
+    font-weight: bold;
+    line-height: 27px;
+    background-image: linear-gradient( rgb(67, 135, 253), rgb(70, 131, 234));
+    color: white;
+    border-radius: 2px;
+}
+
+#btn:hover {
+    text-decoration: none;
+    box-shadow: 1px 1px cornflowerblue;
+}
+
+
+/* Middle */
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#search {
+    background-color: transparent;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: 1px solid rgba(230, 230, 230, 0.87);
+    text-indent: 50px;
+    font-size: 16px;
+    width: 600px;
+    height: 40px;
+}
+
+#search:hover {
+    box-shadow: 1px 1px 1px 1px silver;
+}
+
+#search_icon {
+    position: relative;
+    left: 40px;
+    top: 11px;
+}
+
+#google_btns {
+    margin-top: 30px;
+}
+
+#google_search, #ifl {
+    color: #3c4043;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-width: 1px;
+    border-color: transparent;
+    padding: 0 16px;
+    height: 34px;
+    border-radius: 4px;
+}
+
+#google_search:hover, #ifl:hover {
+    color: black;
+    border: 1px solid silver;
+    cursor: pointer;
+    box-shadow: 1px 1px silver;
+}
+
+#message {
+    margin-top: 30px;
+
+}
+#message:hover {
+    text-decoration: none;
+}
+
+#french {
+    color: blue;
+}
+
+#french:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer_elem {
+    font-size: 14px;
+    color: #70757a;
+    padding-left: 27px;
+}
+
+

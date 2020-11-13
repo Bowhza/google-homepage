@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 
-<html>
+<html id="main">
     <head>
-        <title>Google Homepage</title>
-
-        <link rel="stylesheet" href="main.css">
+        <title>Google</title>
+        <link href="style.css" rel="stylesheet">
     </head>
 
-    <body>
-        <div class="page">
-            <div class="page_container">
-                <nav class="nav">
-                    <ul class="nav_list">
-                        <a class="nav_item_left" href="#">About</a>
-                        <a class="nav_item_left" href="#">Store</a>
-                        <a class="nav_item_right" href="#">Gmail</a>
-                        <a class="nav_item_right" href="#">Images</a>
-                        <button class="sign_in" href="#">Sign in</button>
-                    </ul>
-                </nav>
-                
-                <div id="google_logo" class="logo">
-                    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><img>
-                </div>
-                <div id="search" class="search_bar">
-                    <input type="text" id="search_bar" name="search">
-                </div>
+    <body class="page">
+        <div class="page_contents">
+            <div class="header">
+                <a id="about" class="header_elem" href="#" style="flex-grow: 0.09;">About</a>
+                <a id="store" class="header_elem" href="#" style="flex-grow: 0.09;">Store</a>
+                <p id="empty" class="header_elem" style="flex-grow: 7;"></p>
+                <a id="gmail" class="header_elem" href="#" style="flex-grow: 0.09;">Gmail</a>
+                <a id="images" class="header_elem" href="#" style="flex-grow: 0.09;">Images</a>
+                <a id="apps" class="header_elem" href="#" style="flex-grow: 0.09;"><img src="images/apps.webp" height="25px" width="25px"></a>
+                <a id="btn" class="header_elem" href="#" style="flex-grow: 0.09;">Sign In</a>
+            </div>
+            <div class="middle">
+                <a id="google" class="middle_elem" href="#" style="align-self: center;"><img src="images/google.png"></a>
+                <a id="search_bar" class="middle_elem" style="align-self: center;"><img id="search_icon" src="images/search.png" focusable="false" width="35px" height="35px"><input id="search" type="text"></a>
+                <a id="google_btns" class="middle_elem" style="align-self: center;"><button id="google_search" style="margin-right: 15px;">Google Search</button><button id="ifl">I'm Feeling Lucky</button></a>
+                <p id="message" class="middle_elem" style="align-self: center;">Google offered in: <a href="#" id="french">Français</a></p>
+            </div>
+            <div class="footer">
+                <a id="advertising" class="footer_elem" href="#">Advertising</a>
+                <a id="business" class="footer_elem" href="#">Business</a>
+                <a id="hsw" class="footer_elem" href="#">How Search Works</a>
+                <a id="privacy" class="footer_elem" href="#" style="float: right; margin-right: 30px;">Privacy</a>
+                <a id="terms" class="footer_elem" href="#" style="float: right;">Terms</a>
+                <a id="settings" class="footer_elem" href="#" style="float: right;">Settings</a>
             </div>
         </div>
-        
     </body>
+
 </html>
