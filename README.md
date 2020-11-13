@@ -1,4 +1,7 @@
-This is a google homepage project that im working on to practice my html and css skills learned so far.
+This was the first project in the Odin Project's curriculum that I completed. This project made me utilize the skills learned from https://www.freecodecamp.org "Responsive Web Design Certification" course. The most challenging part about the project was placing the elements aroudn the page using various display types. There were a few obstacles along the way that i solved through critical thinking and google searches.
 
------ Finished -----
-This project challenged me, I used a variety of skills that i learned through the FreeCodeCamp course. I had to use google at some points when i got stuck but overall the project pushed my to my limits and it turned out great.
+Latest Live Preview:
+https://bowhza.github.io/google-homepage/ 
+
+Project Link:
+https://www.theodinproject.com/lessons/html-css
